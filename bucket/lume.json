@@ -1,0 +1,23 @@
+{
+    "version": "1.2.4",
+    "description": "Desktop client for Nostr written in Rust",
+    "homepage": "https://lume.nu/",
+    "license": "GPL-3.0 license",
+    "url": "https://github.com/luminous-devs/lume/releases/download/v1.2.4/Lume_1.2.4_x64_en-US.msi",
+    "hash": "2f90200df3fc8fd9251098f7f0ffd589a9237b00e8acc12ea1168fa5fff6507e",
+    "extract_dir": "PFiles/Lume",
+    "shortcuts": [
+        [
+            "Lume.exe",
+            "Lume"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/luminous-devs/lume"
+    },
+    "autoupdate": {
+        "url": [
+            "https://github.com/luminous-devs/lume/releases/download/v$version/Lume_$version_x64_en-US.msi"
+        ]
+    }
+}
