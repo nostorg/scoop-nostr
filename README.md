@@ -1,15 +1,14 @@
 # Scoop Bucket Template
 
-<!-- Uncomment the following line after replacing placeholders -->
-<!-- [![Tests](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml) [![Excavator](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml) -->
+[![Tests](https://github.com/nostorg/scoop-nostr/actions/workflows/ci.yml/badge.svg)](https://github.com/nostorg/scoop-nostr/actions/workflows/ci.yml) [![Excavator](https://github.com/nostorg/scoop-nostr/actions/workflows/excavator.yml/badge.svg)](https://github.com/nostorg/scoop-nostr/actions/workflows/excavator.yml)
 
 ## How do I install these manifests?
 
-After manifests have been committed and pushed, run the following:
+To install a `<manifest>`, run the following:
 
 ```pwsh
-scoop bucket add <bucketname> https://github.com/<username>/<bucketname>
-scoop install <bucketname>/<manifestname>
+scoop bucket add nostr https://github.com/nostorg/scoop-nostr
+scoop install nostr/<manifest>
 ```
 
 ## How do I contribute new manifests?
