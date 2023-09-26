@@ -1,14 +1,19 @@
-# Scoop Bucket Template
+# Scoop Bucket for Nostr
 
 [![Tests](https://github.com/nostorg/scoop-nostr/actions/workflows/ci.yml/badge.svg)](https://github.com/nostorg/scoop-nostr/actions/workflows/ci.yml) [![Excavator](https://github.com/nostorg/scoop-nostr/actions/workflows/excavator.yml/badge.svg)](https://github.com/nostorg/scoop-nostr/actions/workflows/excavator.yml)
 
 ## How do I install these manifests?
 
-To install a `<manifest>`, run the following:
+First install [scoop](https://scoop.sh/). Then add the bucket:
 
-```pwsh
+```
 scoop bucket add nostr https://github.com/nostorg/scoop-nostr
-scoop install nostr/<manifest>
+```
+
+Finally install a `<manifest>` (such as `gossip` or `lume`):
+
+```
+scoop install <manifest>
 ```
 
 ## How do I contribute new manifests?
