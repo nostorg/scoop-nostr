@@ -22,12 +22,14 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/mikedilger/gossip"
+        "url": "https://api.github.com/repos/mikedilger/gossip/releases/latest",
+        "jsonpath": "$..browser_download_url",
+        "regex": "/releases/download/(?<tag>v?[\\d.]+)/gossip\\.(?<version>v?[\\d.]+)\\.msi"
     },
     "autoupdate": {
         "url": [
-            "https://github.com/mikedilger/gossip/releases/download/v$version/gossip.$version.msi",
-            "https://raw.githubusercontent.com/mikedilger/gossip/v$version/packaging/windows/gossip.ico"
+            "https://github.com/mikedilger/gossip/releases/download/$matchTag/gossip.$version.msi",
+            "https://raw.githubusercontent.com/mikedilger/gossip/$matchTag/packaging/windows/gossip.ico"
         ]
     }
 }
