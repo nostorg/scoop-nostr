@@ -1,10 +1,10 @@
 {
-    "version": "0.20.5",
+    "version": "0.20.6",
     "description": "the nostr army knife",
     "homepage": "https://github.com/fiatjaf/nak",
     "license": "Unlicense",
-    "url": "https://github.com/fiatjaf/nak/releases/download/v0.20.5/nak-v0.20.5-windows-amd64.exe#/nak.exe",
-    "hash": "5e07cb2b433f6bcecb46f41fc2d9882561d337860b59c47c715b4ec7df1eb998",
+    "url": "https://github.com/fiatjaf/nak/releases/download/v0.20.6/nak-v0.20.6-windows-amd64.exe#/nak.exe",
+    "hash": "3fb8cbd540fc8f68f09594592405b828ac1647b0eb06bbcc3bf81e76e1d923c9",
     "bin": "nak.exe",
     "checkver": "github",
     "autoupdate": {
